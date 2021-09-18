@@ -95,7 +95,7 @@ const testQuad2 = new Quad({
     texture: treeTex
 });
 const water = new Water({
-    position: [6, 0.4, 6],
+    position: [6, 0.3, 6],
     rotation: [0, 0, 0],
     scale: [1, 1, 1],
     normal: waterNormalTex,
@@ -103,7 +103,7 @@ const water = new Water({
 })
 const waterWalls = [new Cube({
     scale: [1.15, 0.3, 0.1],
-    position: [6, 0.3, 7.05],
+    position: [6, 0.15, 7.05],
     rotation: [0, 0, 0],
     color: [
         [0.75, 0.75, 0.75, 1.0],
@@ -117,7 +117,7 @@ const waterWalls = [new Cube({
     repeat: 1
 }), new Cube({
     scale: [1.15, 0.3, 0.1],
-    position: [6, 0.3, 4.95],
+    position: [6, 0.15, 4.95],
     rotation: [0, 0, 0],
     color: [
         [0.75, 0.75, 0.75, 1.0],
@@ -131,7 +131,7 @@ const waterWalls = [new Cube({
     repeat: 1
 }), new Cube({
     scale: [0.1, 0.3, 1.15],
-    position: [7.0501, 0.3001, 6.001],
+    position: [7.0501, 0.1501, 6.001],
     rotation: [0, 0, 0],
     color: [
         [0.75, 0.75, 0.75, 1.0],
@@ -145,7 +145,7 @@ const waterWalls = [new Cube({
     repeat: 1
 }), new Cube({
     scale: [0.1, 0.3, 1.15],
-    position: [4.9501, 0.3001, 6.001],
+    position: [4.9501, 0.1501, 6.001],
     rotation: [0, 0, 0],
     color: [
         [0.75, 0.75, 0.75, 1.0],
